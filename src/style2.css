@@ -1,0 +1,22 @@
+/* CSS talk bubble */
+.list-cell .label{
+  display: inline-block;
+	-fx-min-width: 50px;
+	-fx-background-color: lightyellow;
+	-fx-background-radius: 15px;
+	-fx-border-radius: 15px;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-padding: 6 12 6 12;
+    -fx-border-color: #666;
+        /*linear-gradient(to right, #333 0%, #666 5%, #fff 30%);*/
+}
+.list-cell:empty .label{
+    -fx-background-color: transparent;
+    -fx-border-width: 0px;
+}
+
+.list-cell {
+    -fx-background-color: transparent ;
+    -fx-padding: 2 ;
+}
